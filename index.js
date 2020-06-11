@@ -1,7 +1,7 @@
 function updateMap()
 {   
     console.log("Updating map with realtime data")
-    fetch("http://127.0.0.1:5500/Corona%20Tracker/data.json")
+    fetch("data.json")
         .then(response => response.json())
         .then(rsp => {
             // console.log(rsp)
